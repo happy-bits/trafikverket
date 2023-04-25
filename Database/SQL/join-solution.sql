@@ -131,8 +131,7 @@ Solution
 -- Run the command below:
 
 select * 
-from person 
-left join color 
+from person left join color 
 on person.favorite_color_id = color.id
 
 -- Exercise: what result do you get?
@@ -152,8 +151,7 @@ Solution
 -- Solution 
 
 select * 
-from person 
-right join color 
+from person  right join color 
 on person.favorite_color_id = color.id
 
 /*
@@ -187,3 +185,11 @@ Solution
 	- "full join" == "full outer join"  
 
 */
+
+/*
+Bonus, if you only want to see the names:
+*/
+
+select person.name, color.name
+from person left join color 
+on person.favorite_color_id = color.id
