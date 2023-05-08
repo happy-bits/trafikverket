@@ -6,11 +6,11 @@ Frida
 # Group 2
 Tida
 Mattias
-Deniss
 
 # Group 3
 Rosalie
 Noak
+Deniss
 
 # Group 4
 Oliver 
