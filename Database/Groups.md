@@ -3,7 +3,9 @@ Abdi
 Simon
 Frida
 
-Easypark (Boka bord, SF)
+Easypark 
+
+Grupp 2, 4 frågor
 
 # Group 2
 Tida
@@ -16,10 +18,14 @@ Rosalie
 Noak
 Deniss
 
-Prison (SF, Kry)
+Prison
+
+Grupp 1 frågor
 
 # Group 4
 Oliver 
 Gustav
 
-Foodora eller Sats
+Sats
+
+Grupp 3 frågor
