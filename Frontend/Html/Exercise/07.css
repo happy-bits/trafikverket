@@ -1,0 +1,11 @@
+
+ul, ol {
+    padding:0;       
+}
+
+li {
+    list-style: none;
+    background-color: cadetblue;
+    margin-bottom:10px;
+    padding:10px;
+}
