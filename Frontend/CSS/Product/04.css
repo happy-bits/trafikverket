@@ -58,5 +58,17 @@ body {
     background-color: rgba(250, 56, 30, 0.9);
 
     /* exercise start (30min) */
+    top:10px;
+    right:10px;
+
+    font-size: 28px;
+    font-weight: bold;
+    color:white;
+    border-radius: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     /* exercise end */
 }
