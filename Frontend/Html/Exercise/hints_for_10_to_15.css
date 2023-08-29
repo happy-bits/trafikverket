@@ -1,0 +1,30 @@
+img {
+    display: block;
+    margin: 20px 0;
+}
+
+button{
+    display: block;
+}
+
+img[height="60"] {
+    border: solid 10px;
+}
+
+p {
+    border: solid 5px;
+}
+
+/* tips för uppgift 12.css */
+.mama {
+    border: solid 5px darkgoldenrod;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* tips för uppgift 14.css*/
+
+body {
+    width: 500px;
+    margin:auto;
+}
