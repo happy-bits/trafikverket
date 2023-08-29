@@ -1,10 +1,6 @@
 /* exercise start (20min) */
 /* hint: use flexbox */
 
-ul {
-    border: solid 1px;
-}
-
 .menu {
     display: flex;
     border: solid 1px;
