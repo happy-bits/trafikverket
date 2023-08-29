@@ -1,0 +1,27 @@
+*{
+    border: solid 1px;
+}
+
+body, html{
+    border:0;
+}
+
+body{
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product {
+    width: 230px;
+    height: 360px;
+    border: solid 1px rgb(204, 204, 204);
+    padding: 20px;
+}
+
+.product__buy {
+
+    /* exercise start (30min) */
+    /* hint: look at readme.md and you see which CSS-properties is used in the exercises */
+
+    /* exercise end */
+}
