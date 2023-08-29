@@ -11,4 +11,10 @@
 
 /* exercise start (20min) */
 
+.menu__group {
+    display: flex;
+    padding-left:0;
+    column-gap: 10px;
+}
+
 /* exercise end */
