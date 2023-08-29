@@ -14,14 +14,22 @@ body{
 .product {
     width: 230px;
     height: 360px;
+    padding: 30px 20px;
     border: solid 1px rgb(204, 204, 204);
-    padding: 20px;
 }
 
 .product__buy {
 
     /* exercise start (30min) */
     /* hint: look at readme.md and you see which CSS-properties is used in the exercises */
-
+    background-color: rgb(54, 179, 158);
+    border-radius: 20px;
+    padding: 13px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
     /* exercise end */
 }
