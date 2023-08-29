@@ -8,5 +8,9 @@
              gap
     */
 
+    display: flex;
+    flex-wrap:wrap;
+    gap: 15px;
+
     /* exercise end */
 }
