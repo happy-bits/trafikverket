@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin:10px 50px;
+}
+
+body > * {
+    margin-bottom: 20px;
+}

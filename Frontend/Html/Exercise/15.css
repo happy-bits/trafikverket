@@ -1,0 +1,21 @@
+img{
+    height: 100px;
+}
+
+video{
+    height: 100px;
+}
+
+figure{
+    margin-left:0;
+}
+
+label, button, textarea{
+    display: block;
+}
+
+h1{
+    border-bottom: dashed 1px;
+    margin-top:30px;
+    padding-bottom:10px;
+}

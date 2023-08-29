@@ -1,0 +1,12 @@
+input[type="text"],
+input[type="password"],
+button
+{
+    display: block;
+    margin:10px 0;
+}
+
+body{
+    margin:30px;
+    font-family: Arial;
+}
