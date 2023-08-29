@@ -22,16 +22,12 @@ body {
     padding:30px 20px;
     border: solid 1px rgb(203, 213, 219);
 
-    /* exercise start (20min) */
-    /* hint: make this a flexbox */
-
     display: flex;
-    
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
 
-    /* exercise end */
+    position: relative;
 }
 
 .product__buy{
@@ -51,6 +47,16 @@ body {
     width:180px;   
 }
 
-.product__description  {
+.product__description {
     align-self: baseline;
+}
+
+.product__price {
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    background-color: rgba(250, 56, 30, 0.9);
+
+    /* exercise start (30min) */
+    /* exercise end */
 }
