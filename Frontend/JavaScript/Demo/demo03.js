@@ -21,6 +21,7 @@ let cities = ['Stockholm', 'Göteborg', 'New York'];
 for (let x of cities) {
     console.log("Fin stad: " + x);
 }
+
 // "for of" with "break"
 
 let cities2 = ['Stockholm', 'Göteborg', 'New York', 'Amsterdam', 'Dublin'];
