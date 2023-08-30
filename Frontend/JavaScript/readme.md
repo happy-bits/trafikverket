@@ -1,5 +1,9 @@
 # JavaScript
 
+##
+
+    link:favicon TAB  ==> "favorite icon"
+    script:src        ==> referens till JavaScript
 ## JavaScript in 100 seconds
 
 - From 2022
