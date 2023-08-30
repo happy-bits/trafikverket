@@ -6,6 +6,12 @@ function convertToCelsius(far) {
     return c;
 }
 
+function convertToCelsiusAlternative(far) {
+    let c = (far - 32) * 5 / 9;
+    console.log("Svaret blev: " + c)
+}
+
+
 function areaFörEnCirkel(r) {
     let area = r * r * Math.PI; // 3.1415926;
     return area;
