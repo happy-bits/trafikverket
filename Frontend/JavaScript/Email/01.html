@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel="shortcut icon" href="mail.png" type="image/png">
+    <link rel="stylesheet" href="01.css">
+</head>
+
+<body>
+
+    <div class="center">
+
+        <article class="box">
+            <h1>Sign up</h1>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input class="email" type="email">
+                <div class="error-message">Some error 1</div>
+            </div>
+
+            <div class="input-group">
+                <label>Enter again</label>
+                <input class="email-again" type="email">
+                <div class="error-message">Some error 2</div>
+            </div>
+
+            <button onclick="sendForm()">Ok</button>
+
+            <div class="result hidden">
+                You entered ....
+            </div>
+
+        </article>
+
+    </div>
+
+    <script src="01.js"></script>
+</body>
+
+</html>

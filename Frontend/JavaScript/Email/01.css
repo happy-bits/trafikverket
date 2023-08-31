@@ -1,0 +1,111 @@
+/* ELEMENTS */
+
+body {
+    background-color: #eceef2;
+}
+
+
+h1{
+    margin-top:0.2em;
+    margin-bottom: 1em;
+    font-weight: normal;
+    color:#4a4a4a;
+}
+
+body,
+input,
+button,
+label{
+    font-family: Arial;
+}
+
+input{
+    background-color: #f8f8f8;
+}
+
+input:focus{
+    outline: 1px solid #858383;
+}
+
+input,
+button{
+    font-size: 1.2em;
+    padding: 8px 15px;
+    box-shadow: 0px 0px 2px 0px #888888;
+    border:0;
+
+    width: -webkit-fill-available;
+}
+
+button:hover{
+    background-color: #4fc991;
+}
+
+button{
+    background-color: #8aaf9e;
+    color:white;
+    padding:0.7em;
+    cursor: pointer;
+}
+
+label{
+    font-size: 0.8em;
+    margin-bottom:0.6em;
+    font-weight: bold;
+    color:#3b3b3b;
+}
+
+label, 
+button{
+    display: block;
+}
+
+/* CLASSES */
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top:3em;
+}
+
+.box {
+    padding:30px;
+    background-color: white;
+    width: 350px;
+    box-shadow: 0px 0px 5px 0px #888888;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.input-group {
+    margin-bottom:1.5em;
+}
+
+.error-message{
+    display: none;
+}
+
+.invalid input{
+    border:solid 1px #e65458;
+}
+.invalid .error-message{
+    color: #e65458;
+    font-size: 0.7em;
+    margin-top:0.5em;
+    display: block;
+}
+
+.result {
+    margin-top:1.5em;
+    line-height: 1.5em;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: #e65458;
+}
