@@ -1,0 +1,25 @@
+/* ELEMENTS */
+*{
+    font-size: 1rem;
+}
+body {
+    background-color: #eceef2;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+
+/* CLASSES */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top:1rem;
+}
+
+.mama {
+    border: solid 1px;
+    margin:1rem;
+    padding:0.5rem;
+    background: lightseagreen;
+}

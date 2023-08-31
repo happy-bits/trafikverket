@@ -1,0 +1,27 @@
+/* ELEMENTS */
+*{
+    font-size: 1.2rem;
+}
+body {
+    background-color: #eceef2;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    padding:1rem;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    margin: 0.25rem;
+}
+
+/* CLASSES */
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-top:1rem;
+}
