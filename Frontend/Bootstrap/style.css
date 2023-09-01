@@ -1,0 +1,11 @@
+
+h2.divider {
+    padding: 10px 0;
+    background-color: #aed8ed;
+    text-align: center;
+    margin: 20px 0;
+}
+
+body{
+    padding-bottom: 50px;
+}

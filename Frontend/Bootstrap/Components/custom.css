@@ -1,0 +1,43 @@
+body {
+    background-color: #ededed;
+}
+
+.box {
+    padding:30px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px #888888;
+}
+
+.container {
+    max-width: 500px;
+}
+
+/* COMPONENTS */
+
+.movie__star{
+    width:50px;
+    padding:0.2rem;
+}
+
+.movie__info{
+    cursor: pointer;
+    text-align: center;
+    margin-top:1.5rem;
+}
+
+.train__tripboxes {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.train__tripbox{
+    border: solid 1px #0b5ed7;
+    padding: 1rem 2rem;
+    margin-right:1rem;
+    cursor: pointer;
+}
+
+.train__tripbox.selected {
+    background-color: #0b5ed7;
+    color:white;
+}
