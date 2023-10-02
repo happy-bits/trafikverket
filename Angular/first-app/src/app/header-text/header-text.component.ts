@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { DisplayModeService } from '../display-mode.service';
 
 @Component({
   selector: 'app-header-text',
@@ -10,11 +11,19 @@ export class HeaderTextComponent {
   @Input() header = '<No header>'
   @Input() description = '<No description>'
 
-  showDetail = true
+  isCompact = false
+
+  constructor(private displayMode: DisplayModeService){
+    
+    this.displayMode.currentCompactStatus.subscribe(
+
+      status => this.isCompact = status
+
+    )
+  }
 
   toggle() {
-
-    this.showDetail = !this.showDetail
+    this.isCompact = !this.isCompact
   }
 
 }

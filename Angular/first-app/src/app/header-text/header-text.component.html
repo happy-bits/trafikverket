@@ -1,4 +1,4 @@
 <div>
     <h2 (click)="toggle()">{{header}}</h2>
-    <p *ngIf="showDetail" >{{description}}</p>
+    <p *ngIf="!isCompact" >{{description}}</p>
 </div>
