@@ -10,4 +10,11 @@ export class HeaderTextComponent {
   @Input() header = '<No header>'
   @Input() description = '<No description>'
 
+  showDetail = true
+
+  toggle() {
+
+    this.showDetail = !this.showDetail
+  }
+
 }
