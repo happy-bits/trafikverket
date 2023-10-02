@@ -1,0 +1,13 @@
+img {
+    width:150px
+}
+
+.wrap{
+    border: solid 1px;
+    background-color: white;
+    padding:10px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    width:400px;
+}
