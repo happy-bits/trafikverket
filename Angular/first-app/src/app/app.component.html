@@ -1,7 +1,21 @@
 <h1>Hello!</h1>
 
-<app-header-text></app-header-text>
-<app-product></app-product>
-<app-header-text></app-header-text>
-<app-header-text></app-header-text>
-<app-product></app-product>
+<app-header-text 
+    [header]="'Elephant'" 
+    [description]="'Large mammal with a long trunk and tusks, known for intelligence and memory.'" 
+/>
+
+<app-product
+    [name]="'Satsumas Class 1'"
+    [image]="'satsumas.jpg'"
+    [description]="'Juicy and sweet, Satsumas are the perfect citrus treat!'"
+/>
+
+<app-header-text 
+    [header]="'Tiger'" 
+    [description]="'Big cat with a striped coat, known for its strength and agility.'" 
+/>
+
+<app-header-text />
+
+<app-product/>

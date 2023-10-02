@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-header-text',
@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./header-text.component.css']
 })
 export class HeaderTextComponent {
+
+  @Input() header = '<No header>'
+  @Input() description = '<No description>'
 
 }
