@@ -13,13 +13,19 @@
     [description]="'Large mammal with a long trunk and tusks, known for intelligence and memory.'" 
 />
 
-<app-product
-    [name]="'Satsumas Class 1'"
-    [image]="'satsumas.jpg'"
-    [description]="'Juicy and sweet, Satsumas are the perfect citrus treat!'"
-    [isInStock]="true"
-    [id]="1001"
-/>
+
+<div *ngFor="let product of products">
+
+    <app-product
+        [name]="product.name"
+        [image]="product.image"
+        [description]="product.description"
+        [isInStock]="product.isInStock"
+        [id]="product.id"
+    
+    />
+    
+</div>
 
 <app-header-text 
     [header]="'Tiger'" 
@@ -28,21 +34,7 @@
 
 <app-header-text />
 
-<app-product
-    [name] ="'Tofu'"
-    [isInStock]="false"
-    [image]="'tofu.jpg'"
-    [description]="'Versatile and nutritious, Tofu is a plant-based powerhouse!'"
-    [isInStock]="true"
-    [id]="1002"
-/>
-
 <div *ngFor="let item of cartItems()">
     <p>{{item.id}}: {{item.amount}}</p>
 </div>
 
-<h2>All products</h2>
-
-<div *ngFor="let product of products">
-    <p>{{product.id}} - {{product.name}} - {{product.isInStock}}</p>
-</div>
