@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { DisplayModeService } from './display-mode.service';
+import { CartService } from './cart.service';
+import { ICartItem } from './cart-item';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +11,10 @@ import { DisplayModeService } from './display-mode.service';
 export class AppComponent {
   title = 'first-app';
 
-  constructor(private displayModeService: DisplayModeService){
+  constructor(
+    private displayModeService: DisplayModeService,
+    private cartService: CartService
+    ){
 
   }
 
@@ -20,4 +25,11 @@ export class AppComponent {
   expandedView() {
     this.displayModeService.changeCompactStatus(false)
   }
+
+  cartItems(): ICartItem[]{
+    return this.cartService.getCartItems()
+  }
+
 }
+
+
