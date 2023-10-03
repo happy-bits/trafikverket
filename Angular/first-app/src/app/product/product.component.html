@@ -1,8 +1,18 @@
-<div class="wrap">
-    <div>
-        <h2>{{name}}</h2>
-        <p *ngIf="!isCompact">{{description}}</p>
+<div class="box">
+
+    <div class="above">
+        <div>
+            <h2>{{name}}</h2>
+            <p *ngIf="!isCompact">{{description}}</p>
+        </div>
+        <img *ngIf="!isCompact" src="./assets/{{image}}" alt="">
+        <app-on-off-circle [isOn]="isInStock" />
     </div>
-    <img *ngIf="!isCompact" src="./assets/{{image}}" alt="">
-    <app-on-off-circle [isOn]="isInStock" />
+
+    <div class="below" *ngIf="isInStock">
+        <button (click)="adjustAmount(-1)">-</button>
+        <div>{{amount}}</div>
+        <button (click)="adjustAmount(+1)">+</button>
+    </div>
+
 </div>

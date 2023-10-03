@@ -2,12 +2,21 @@ img {
     width:150px
 }
 
-.wrap{
+.box{
     border: solid 1px;
     background-color: white;
     padding:10px 20px;
+    width:400px;
+}
 
+.above{
     display: flex;
     justify-content: space-between;
-    width:400px;
+}
+
+.below{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    align-items: center;
 }
