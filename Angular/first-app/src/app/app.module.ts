@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HeaderTextComponent } from './header-text/header-text.component';
 import { ProductComponent } from './product/product.component';
 import { OnOffCircleComponent } from './on-off-circle/on-off-circle.component';
+import {HttpClientModule} from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { OnOffCircleComponent } from './on-off-circle/on-off-circle.component';
     OnOffCircleComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

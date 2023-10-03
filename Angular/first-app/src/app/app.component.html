@@ -41,3 +41,8 @@
     <p>{{item.id}}: {{item.amount}}</p>
 </div>
 
+<h2>All products</h2>
+
+<div *ngFor="let product of products">
+    <p>{{product.id}} - {{product.name}} - {{product.isInStock}}</p>
+</div>

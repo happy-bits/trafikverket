@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1001,
+        "name": "Satsumas Class 1",
+        "image": "satsumas.jpg",
+        "description": "Juicy and sweet, Satsumas are the perfect citrus treat!",
+        "isInStock": true
+    },
+    {
+        "id": 1002,
+        "name": "Tofu",
+        "image": "tofu.jpg",
+        "description": "Versatile and nutritious, Tofu is a plant-based powerhouse!",
+        "isInStock": true
+    },
+    {
+        "id": 1003,
+        "name": "Mushrooms",
+        "image": "champinjoner.jpg",
+        "description": "Unlock the Power of Fungi with Our Premium Mushrooms!",
+        "isInStock": true
+    }
+]
+
