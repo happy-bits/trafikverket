@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { DisplayModeService } from '../display-mode.service';
 
 @Component({
   selector: 'app-product',
@@ -9,4 +10,15 @@ export class ProductComponent {
   @Input() image = 'missing-image.jpg'
   @Input() name = '<No name>'
   @Input() description = '<No description>'
+
+  isCompact = false
+
+  constructor(private displayMode: DisplayModeService){
+    
+    this.displayMode.currentCompactStatus.subscribe(
+
+      status => this.isCompact = status
+
+    )
+  }
 }

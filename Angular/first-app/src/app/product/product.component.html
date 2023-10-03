@@ -1,7 +1,7 @@
 <div class="wrap">
     <div>
         <h2>{{name}}</h2>
-        <p>{{description}}</p>
+        <p *ngIf="!isCompact">{{description}}</p>
     </div>
-    <img src="./assets/{{image}}" alt="">
+    <img *ngIf="!isCompact" src="./assets/{{image}}" alt="">
 </div>

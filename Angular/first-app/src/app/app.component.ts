@@ -16,4 +16,8 @@ export class AppComponent {
   compactView() {
     this.displayModeService.changeCompactStatus(true)
   }
+
+  expandedView() {
+    this.displayModeService.changeCompactStatus(false)
+  }
 }
