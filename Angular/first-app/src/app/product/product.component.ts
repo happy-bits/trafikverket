@@ -10,6 +10,7 @@ export class ProductComponent {
   @Input() image = 'missing-image.jpg'
   @Input() name = '<No name>'
   @Input() description = '<No description>'
+  @Input() isInStock = false 
 
   isCompact = false
 

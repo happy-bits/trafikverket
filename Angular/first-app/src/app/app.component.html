@@ -1,5 +1,10 @@
 <h1>Hello!</h1>
 
+<!-- 
+    Angular Language Service
+    Angular Snippets 
+-->
+
 <button (click)="compactView()">Compact view</button>
 <button (click)="expandedView()">Expanded view</button>
 
@@ -12,6 +17,7 @@
     [name]="'Satsumas Class 1'"
     [image]="'satsumas.jpg'"
     [description]="'Juicy and sweet, Satsumas are the perfect citrus treat!'"
+    [isInStock]="true"
 />
 
 <app-header-text 
@@ -21,4 +27,6 @@
 
 <app-header-text />
 
-<app-product/>
+<app-product
+    [isInStock]="false"
+/>

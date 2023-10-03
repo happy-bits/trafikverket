@@ -4,4 +4,5 @@
         <p *ngIf="!isCompact">{{description}}</p>
     </div>
     <img *ngIf="!isCompact" src="./assets/{{image}}" alt="">
+    <app-on-off-circle [isOn]="isInStock" />
 </div>
