@@ -5,6 +5,10 @@
     Angular Snippets 
 -->
 
+<p>{{currentDate | date:'yyyy-MM-dd'}}</p>
+<p>{{currentDate | date:'hh:mm'}}</p>
+<p>{{cartItems() | json}}</p>
+
 <button (click)="compactView()">Compact view</button>
 <button (click)="expandedView()">Expanded view</button>
 
@@ -17,9 +21,9 @@
 <div *ngFor="let product of products">
 
     <app-product
-        [name]="product.name"
+        [name]="product.name | uppercase"
         [image]="product.image"
-        [description]="product.description"
+        [description]="product.description | cutText:30"
         [isInStock]="product.isInStock"
         [id]="product.id"
     

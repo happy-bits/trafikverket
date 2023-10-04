@@ -16,6 +16,8 @@ export class AppComponent {
 
   products: IProduct[] = [];
 
+  currentDate = new Date();
+
   constructor(
     private displayModeService: DisplayModeService,
     private cartService: CartService,
