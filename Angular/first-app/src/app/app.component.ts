@@ -42,6 +42,13 @@ export class AppComponent {
     return this.cartService.getCartItems()
   }
 
+  getProductName(id: number) {
+    const product = this.products.find( p => p.id === id)
+
+    return product === undefined ? "Missing name" : product.name
+
+  }
+
 }
 
 

@@ -35,6 +35,6 @@
 <app-header-text />
 
 <div *ngFor="let item of cartItems()">
-    <p>{{item.id}}: {{item.amount}}</p>
+    <p>{{ getProductName(item.id)}}: {{item.amount}}</p>
 </div>
 
