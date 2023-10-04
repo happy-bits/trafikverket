@@ -34,7 +34,10 @@
 
 <app-header-text />
 
-<div *ngFor="let item of cartItems()">
-    <p>{{ getProductName(item.id)}}: {{item.amount}}</p>
+<div *ngIf="cartItems().length > 0" class="cart">
+    <div class="cart-row" *ngFor="let item of cartItems()">
+        <div class="cart-cell-name">{{ getProductName(item.id)}}</div>
+        <div class="cart-cell-amount">{{item.amount}}</div>
+    </div>
 </div>
 

@@ -1,3 +1,31 @@
 h1 {
     color: blueviolet
 }
+
+.cart{
+    background-color: #c1d8c8;
+    border:solid 1px;
+    width:300px;
+}
+
+/* .cart:empty{
+    border:none;
+} */
+
+.cart-row{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px;
+    padding: 10px 0;
+}
+
+.cart-row:last-child{
+    border-bottom: none;
+}
+
+.cart-cell-name{
+    margin-left:20px;
+}
+.cart-cell-amount{
+    margin-right: 20px;
+}
