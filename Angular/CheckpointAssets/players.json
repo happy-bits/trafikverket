@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Rafael Nadal",
+        "description": "Known as the King of Clay, Nadal has won an unparalleled 13 French Open titles among his 20 Grand Slam victories.",
+        "picture": "nadal.png",
+        "osMedals": 2
+    },
+    {
+        "name": "Serena Williams",
+        "description": "She has captured 23 Grand Slam singles titles, the most by any player in the Open Era",
+        "picture": "serina.png",
+        "osMedals": 4
+    }
+]
